@@ -106,6 +106,7 @@ st.markdown("""
     .stSelectbox > div > div:focus-within {
         border-color: #667eea;
         box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        color:black;
     }
     
     /* Text area styling */
@@ -116,13 +117,14 @@ st.markdown("""
         font-family: 'Consolas', 'Monaco', monospace;
         font-size: 0.9rem;
         line-height: 1.5;
+        color:black;
     }
     
     /* Success/Error message styling */
     .stSuccess {
         background: linear-gradient(45deg, #28a745, #20c997);
         border-radius: 10px;
-        color: white;
+        color: black;
     }
     
     .stError {
@@ -165,6 +167,7 @@ st.markdown("""
     .stFileUploader > div {
         border: 2px dashed #667eea;
         border-radius: 15px;
+        color:black;
         padding: 2rem;
         background: rgba(255, 255, 255, 0.8);
         transition: all 0.3s ease;
