@@ -99,6 +99,7 @@ st.markdown("""
     .stSelectbox > div > div {
         background: white;
         border-radius: 10px;
+        color:black;
         border: 2px solid #e9ecef;
     }
     
@@ -114,22 +115,22 @@ st.markdown("""
         font-family: 'Consolas', 'Monaco', monospace !important;
         font-size: 0.9rem !important;
         line-height: 1.5 !important;
-        color: #2c3e50 !important;
         padding: 1rem !important;
+        color:black;
     }
     
-    /* Additional text area fix for disabled state */
+    /* Additional text area fix for disabled state 
     .stTextArea textarea:disabled {
         background: #f8f9fa !important;
-        color: #495057 !important;
+        color:black;
         opacity: 1 !important;
-    }
+    }*/
     
     /* Success/Error message styling */
     .stSuccess {
         background: linear-gradient(45deg, #28a745, #20c997);
         border-radius: 10px;
-        color: white;
+        color: black;
     }
     
     .stError {
