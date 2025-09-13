@@ -109,7 +109,6 @@ st.markdown("""
     
     /* Text area styling */
     .stTextArea > div > div > textarea {
-        background: #ffffff !important;
         border: 2px solid #e9ecef !important;
         border-radius: 10px !important;
         font-family: 'Consolas', 'Monaco', monospace !important;
