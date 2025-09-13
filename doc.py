@@ -98,7 +98,6 @@ st.markdown("""
     /* Selectbox styling */
     .stSelectbox > div > div {
         background: white;
-        color:black;
         border-radius: 10px;
         border: 2px solid #e9ecef;
     }
@@ -106,25 +105,32 @@ st.markdown("""
     .stSelectbox > div > div:focus-within {
         border-color: #667eea;
         box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-        color:black;
     }
     
     /* Text area styling */
     .stTextArea > div > div > textarea {
-        background: #f8f9fa;
-        border: 2px solid #e9ecef;
-        border-radius: 10px;
-        font-family: 'Consolas', 'Monaco', monospace;
-        font-size: 0.9rem;
-        line-height: 1.5;
-        color:black;
+        background: #ffffff !important;
+        border: 2px solid #e9ecef !important;
+        border-radius: 10px !important;
+        font-family: 'Consolas', 'Monaco', monospace !important;
+        font-size: 0.9rem !important;
+        line-height: 1.5 !important;
+        color: #2c3e50 !important;
+        padding: 1rem !important;
+    }
+    
+    /* Additional text area fix for disabled state */
+    .stTextArea textarea:disabled {
+        background: #f8f9fa !important;
+        color: #495057 !important;
+        opacity: 1 !important;
     }
     
     /* Success/Error message styling */
     .stSuccess {
         background: linear-gradient(45deg, #28a745, #20c997);
         border-radius: 10px;
-        color: black;
+        color: white;
     }
     
     .stError {
@@ -167,7 +173,6 @@ st.markdown("""
     .stFileUploader > div {
         border: 2px dashed #667eea;
         border-radius: 15px;
-        color:black;
         padding: 2rem;
         background: rgba(255, 255, 255, 0.8);
         transition: all 0.3s ease;
